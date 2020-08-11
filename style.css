@@ -10,7 +10,6 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 100vh;
 }
 
 #container {
@@ -53,4 +52,9 @@ svg {
 
 #left-axis-text {
     font-size: 1rem;
+}
+
+#desc {
+  font-size: 0.9rem;
+  text-align: center;
 }
