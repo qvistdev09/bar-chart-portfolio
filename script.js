@@ -22,7 +22,7 @@ svg
   .attr("y", 75);
 
 d3.json(
-  'https://raw.githubusercontent.com/freeCodeCamp/ProjectReferenceData/master/GDP-data.json'
+  'https://raw.githubusercontent.com/qvistdev09/bar-chart-portfolio/master/GDP-data.json'
 ).then((data) => {
   createBars(data.data);
 });
